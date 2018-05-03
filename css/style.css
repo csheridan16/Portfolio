@@ -1,0 +1,458 @@
+body{
+    background-repeat: repeat;   
+    font-family: 'Avenir';
+    color: #000;
+    border: 10px solid #e49600; 
+
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  div#container{
+    background-image: url("image/space.jpg");
+    background-size: auto 10%;  
+    background-repeat: repeat;    
+    max-width: 1418px;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    
+  }
+    
+    
+    
+    
+    
+    
+
+  div#navigation{  
+    background-color: #e49600;  
+    padding-bottom: 40px;
+    color: #000;    
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;  
+
+  }
+    
+    #nav{grid-column: 2/9;
+        margin-top: 30px;
+        margin-left: 150px;
+    }
+ 
+
+ 
+
+
+  div#navigation ul li{
+    display: inline-block;
+ 
+
+ 
+}
+
+div#navigation ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;    
+   
+
+}
+    
+
+    
+    
+    
+    
+     
+
+  div#intro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: fff;
+    padding: 80px;  
+    
+  }
+    
+#intro img{
+    grid-column: 0/1;
+    grid-row-start: 2;
+  }
+    
+div#title{
+    display: grid;
+    grid-template-columns: 16.6% 16.6% 16.6% 16.6%;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+    padding: 80px;
+ 
+  } 
+
+    #title img{grid-column: 1/3;}    
+    
+    #title h1{grid-column: 3/6}
+ 
+    
+  
+
+  h1{
+    font-size: 160px;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    color:#e49600;
+    text-align: center; 
+      
+
+     }
+
+  h2{
+      font-size: 50px;
+      border-top: 2px solid #e49600;
+      max-width: 350px;
+      color:#e49600;
+      padding-top: 5px;
+     }
+
+  p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    margin-bottom: 30px;
+    font-family: 'Neue Haas Unica Pro Medium';
+
+    }
+
+    a{
+      font-size: 20px;    
+      color: #e49600;
+    }
+
+  figure{
+       grid-column: 1 / 3;
+    
+    }
+
+  figcaption{
+    text-align: right;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+  }
+    
+    
+
+    
+    
+    
+    
+    
+    
+    div#contact{ 
+        display: grid;
+        grid-template-columns: 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093%;
+        background-color: #d8dcdf;
+        background-repeat: repeat;
+        }  
+
+   
+    
+.tumblr{
+    grid-column: 5/6;
+  }
+    
+.drible{
+    grid-column: 6/7;
+  }
+.github{
+    grid-column: 7/8;
+  }
+    
+#tumblr img{height: 100px;
+              width: 100px;}  
+    
+#drible img{height: 100px;
+              width: 100px;}  
+        
+#github img{height: 100px;
+              width: 100px;}  
+        
+    
+   
+    
+div#projects{
+    display: grid;
+    grid-template-columns: 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093%;
+    background-color: #d8dcdf;   
+
+
+  }
+    
+#projects img{height: 300px;
+              width: 300px;}    
+    
+    
+    
+#projects h2{
+  grid-column: 1/5; /*places item on the grid */
+  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 80px;    
+ 
+}
+#projects p{
+  grid-column: 1/8; /*places item on the grid */
+  margin-bottom: 80px;
+  margin-left: 80px;    
+ 
+}
+
+  .project{
+
+    grid-column: 2 / 5;
+    margin-bottom: 80px;
+
+
+  }
+
+  .project.item2{
+    grid-column: 5 / 7;
+  }
+    
+.project4{
+    grid-column: 2 / 5;
+  }
+.project5{
+    grid-column: 5 / 7;
+  }
+        
+    
+.project3  {
+        grid-column: 8/ 10
+    }    
+
+.project6  {
+        grid-column: 8/ 10
+    }       
+
+  .project h3{
+    margin-top: 20px;
+  }
+
+  .project h3 span{
+    display: block;
+    color: #989898;
+  }
+    
+    
+    
+div#skills{
+            display: grid;
+            grid-template-columns: 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093%;
+            background-color: #fff;   
+      }    
+      
+#skills img{height: 400px;
+              width: 300px;}  
+    
+#skills h2{
+  grid-column: 1/5; /*places item on the grid */
+  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 80px;    
+ 
+}    
+    
+.skills1{
+
+    grid-column: 2 / 5;
+    margin-bottom: 80px;
+
+    
+
+  }
+
+  .skills2{
+    grid-column: 5 / 7;
+  }
+    
+.skills3{
+    grid-column: 8 / 12;
+  }    
+
+    
+div#education{
+          display: grid;
+          grid-template-columns: 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555%;
+          grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+          background-color: #d8dcdf;}      
+
+    
+#education h2{grid-column: 1/5; /*places item on the grid */
+  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 80px;}   
+    
+#foundation p{    
+  margin-bottom: 0px;
+  margin-left: 80px;    
+ 
+}   
+    
+#interaction p{
+  margin-bottom: 0px;
+  margin-left: 80px;    
+ 
+}      
+    
+    #foundation{margin-top: 100px;}    
+    #interaction{margin-top: 100px;} 
+    
+ #foundation{
+    grid-column: 1/8;
+    grid-row-start: 3;
+    margin-left: 30px;  
+  }    
+
+#interaction{
+    grid-column: 8/14;
+    grid-row-start: 3;
+    margin-left: 30px;  
+  }      
+    
+   
+    
+    
+    
+    
+    
+    
+div#about{
+          display: grid;
+          grid-template-columns: 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555%;
+          grid-template-rows: 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px;
+          background-color: #fff;}    
+    
+    
+
+  .project h3{
+    margin-top: 20px;
+    margin-bottom: 10px;  
+  }
+
+  .project h3 span{
+    display: block;
+    color: #989898;
+  }
+
+ 
+
+  #about img{
+    grid-column: 1/8;
+    grid-row-start: 2;
+    margin-left: 30px;  
+  }
+
+  #about h2{
+   
+    grid-column: 9 / 13;
+    grid-row-start: 3;
+  }
+
+  #about .text{
+    grid-column: 9 / 17;
+    grid-row-start: 4;
+  }
+
+  h2#contact{
+        grid-row-start: 13;
+        grid-column-start: 1;
+        max-width: 350px;
+  }
+
+  ul#get-in-touch{
+
+    grid-column-start: 1;
+    grid-row-start: 14;
+
+  }
+
+  ul#get-in-touch a{
+
+    text-decoration: none;
+  }
+
+  p.signoff{
+    text-align: center;
+    font-size: 12px;
+    color: #ababab;
+    margin-bottom: 2%;
+  }
+
+  .blur-up {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    transition: filter 400ms, -webkit-filter 400ms;
+  }
+
+  .blur-up.lazyloaded {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+
+  @media only screen and (max-width: 800px){
+
+    div#container{
+      padding: 40px;
+    }
+
+    div#navigation, div#intro, div#projects, div#about{
+      display: block;
+
+    }
+
+    div#navigation ul{
+      text-align: left;
+
+}
+    div#navigation ul li{
+      
+      margin-top: 20px;
+      margin-left: 0;
+      margin-right: 1em;
+
+    }
+      
+      
+
+    figcaption{
+      text-align: left;
+    }
+
+    h2{
+      margin-bottom: 20px;
+    }
+
+    div#about img{
+      margin-bottom: 40px;
+    }
+
+    div#projects, div#about{
+      margin-top: 80px;
+    }
+      
+      h4{text-align: center;
+         color:#e49600;
+           
+
+      }  
+      
+      
+      
+    }
+      
