@@ -1,4 +1,7 @@
 body{    
+    background-image: url("image/background.png");
+    background-size: auto 10%;  
+    background-repeat: repeat;    
     font-family: 'Avenir';
     color: #000;
     border: 10px solid #e49600; 
